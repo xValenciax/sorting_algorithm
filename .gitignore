@@ -1,4 +1,6 @@
 update.sh
+main.c
+prints.c
 # Prerequisites
 *.d
 
