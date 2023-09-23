@@ -23,5 +23,8 @@ void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swap_nodes_list(listint_t **head, listint_t **n1, listint_t **n2);
+void quick_sort(int *array, size_t size);
+void quick_sort_rec(int *array, int lo, int hi, size_t size);
+int lomuto_partition(int *array, int lo, int hi, size_t size);
 
 #endif
