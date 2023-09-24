@@ -77,7 +77,7 @@ quick_sort_rec(array, p + 1, hi, size);
  */
 void quick_sort(int *array, size_t size)
 {
-if (size <= 0)
+if (size < 2 || !array)
 return;
 
 quick_sort_rec(array, 0, size - 1, size);
